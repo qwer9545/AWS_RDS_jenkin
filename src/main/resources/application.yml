@@ -1,5 +1,5 @@
 server:
-  port: 8999   # server.port=80
+  port: 8080   # server.port=80
   servlet:
     context-path: /probono  # server.servlet.context-path=/probono
 
@@ -8,7 +8,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
 #    url: jdbc:mysql://127.0.0.1:8887/fisa?useSSL=false&allowPublicKeyRetrieval=true
-    url: jdbc:mysql://127.0.0.1:3306/fisa?useSSL=false&allowPublicKeyRetrieval=true
+#    url: jdbc:mysql://127.0.0.1:3306/fisa?useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://n4ud7pys7k.execute-api.ap-northeast-2.amazonaws.com/dev10:3306/fisa?useSSL=false&allowPublicKeyRetrieval=true
     username: root
   jpa:
     database: mysql
